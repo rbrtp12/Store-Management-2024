@@ -23,13 +23,15 @@ public class ProductController {
 
     @GetMapping("/{id}")
     public ResponseEntity<Product> findProduct(@PathVariable Long id) {
-        Optional<Product> product = productService.findProduct(id);
-        return product.map(ResponseEntity::ok)
-                .orElseGet(() -> new ResponseEntity<>(HttpStatus.NOT_FOUND));
+        Product product = productService.findProduct(id);
+        if (product != null) {
+            return ResponseEntity.ok(product);
+        }
+        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
     @PutMapping("/{id}/price")
-    public ResponseEntity<Product> changePrice(@PathVariable Long id, @RequestParam double newPrice) {
+    public ResponseEntity<Product> changePrice(@PathVariable Long id, @RequestParam float newPrice) {
         Product product = productService.changePrice(id, newPrice);
         if (product != null) {
             return ResponseEntity.ok(product);
