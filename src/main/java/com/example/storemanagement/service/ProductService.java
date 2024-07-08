@@ -1,31 +1,23 @@
 package com.example.storemanagement.service;
 
+import com.example.storemanagement.DAO.ProductDAO;
+import com.example.storemanagement.DAO.ProductDAOImpl;
 import com.example.storemanagement.model.Product;
-import com.example.storemanagement.repository.ProductRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-import java.util.Optional;
-
+@Service
 public class ProductService {
 
-    @Autowired
-    private ProductRepository productRepository;
-
+    private final ProductDAO productDAO = new ProductDAOImpl();
     public Product addProduct(Product product){
-        return productRepository.save(product);
+        return productDAO.addProduct(product);
     }
 
-    public Optional<Product> findProduct(Long id){
-        return productRepository.findById(id);
+    public Product findProduct(Long id){
+        return productDAO.findProduct(id);
     }
 
-    public Product changePrice(Long id, double newPrice){
-        Optional<Product> optionalProduct = productRepository.findById(id);
-        if (optionalProduct.isPresent()) {
-            Product product = optionalProduct.get();
-            product.setPrice(newPrice);
-            return productRepository.save(product);
-        }
-        return null;
+    public Product changePrice(Long id, float newPrice){
+        return productDAO.changePrice(id, newPrice);
     }
 }
