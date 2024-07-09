@@ -1,0 +1,168 @@
+2024-07-10T00:31:43.389+03:00  INFO 29772 --- [storemanagement] [main] c.e.s.StoremanagementApplication         : Starting StoremanagementApplication using Java 17.0.4 with PID 29772 (D:\repo\Store-Management-2024\target\classes started by rbrtp in D:\repo\Store-Management-2024)
+2024-07-10T00:31:43.395+03:00  INFO 29772 --- [storemanagement] [main] c.e.s.StoremanagementApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-07-10T00:31:45.754+03:00  INFO 29772 --- [storemanagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2024-07-10T00:31:45.774+03:00  INFO 29772 --- [storemanagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-10T00:31:45.775+03:00  INFO 29772 --- [storemanagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-10T00:31:45.911+03:00  INFO 29772 --- [storemanagement] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-10T00:31:45.912+03:00  INFO 29772 --- [storemanagement] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2417 ms
+2024-07-10T00:31:46.164+03:00  INFO 29772 --- [storemanagement] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-10T00:31:46.782+03:00  INFO 29772 --- [storemanagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2024-07-10T00:31:46.806+03:00  INFO 29772 --- [storemanagement] [main] c.e.s.StoremanagementApplication         : Started StoremanagementApplication in 4.363 seconds (process running for 5.153)
+2024-07-10T00:32:21.793+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-10T00:32:21.794+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-10T00:32:21.796+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-07-10T00:32:27.746+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-2] c.e.storemanagement.DAO.ProductDAOImpl   : All products retrieved: [com.example.storemanagement.model.Product@fc79220, com.example.storemanagement.model.Product@7953831f, com.example.storemanagement.model.Product@5f939ed8, com.example.storemanagement.model.Product@1da70c20, com.example.storemanagement.model.Product@2ec2cb26, com.example.storemanagement.model.Product@4b6cfe9a, com.example.storemanagement.model.Product@84adc71, com.example.storemanagement.model.Product@2da90754, com.example.storemanagement.model.Product@150a723c, com.example.storemanagement.model.Product@393ed629, com.example.storemanagement.model.Product@67492c2b, com.example.storemanagement.model.Product@23f0431, com.example.storemanagement.model.Product@44620dd8, com.example.storemanagement.model.Product@b2204e3, com.example.storemanagement.model.Product@25a459d8, com.example.storemanagement.model.Product@5f40dfd1, com.example.storemanagement.model.Product@b98152c, com.example.storemanagement.model.Product@10861da0, com.example.storemanagement.model.Product@176bfcf1, com.example.storemanagement.model.Product@4e8c179a, com.example.storemanagement.model.Product@5f65a12, com.example.storemanagement.model.Product@253d2c11]
+2024-07-10T00:32:33.847+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-3] c.e.storemanagement.DAO.ProductDAOImpl   : All products retrieved: [com.example.storemanagement.model.Product@4b31cc77, com.example.storemanagement.model.Product@9401a5, com.example.storemanagement.model.Product@6ea3d9ba, com.example.storemanagement.model.Product@5faefa44, com.example.storemanagement.model.Product@1a39d7b2, com.example.storemanagement.model.Product@3a807479, com.example.storemanagement.model.Product@4a9e049a, com.example.storemanagement.model.Product@62cabb57, com.example.storemanagement.model.Product@361a64fb, com.example.storemanagement.model.Product@f80edfd, com.example.storemanagement.model.Product@35008243, com.example.storemanagement.model.Product@2a797b7, com.example.storemanagement.model.Product@67ff06a4, com.example.storemanagement.model.Product@6f18f0a3, com.example.storemanagement.model.Product@5e3b6599, com.example.storemanagement.model.Product@609f4bc6, com.example.storemanagement.model.Product@7f4aab57, com.example.storemanagement.model.Product@57ffd1f5, com.example.storemanagement.model.Product@52ed613e, com.example.storemanagement.model.Product@48b6d1de, com.example.storemanagement.model.Product@628ccb8c, com.example.storemanagement.model.Product@4b55de51]
+2024-07-10T00:32:35.446+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-4] c.e.storemanagement.DAO.ProductDAOImpl   : All products retrieved: [com.example.storemanagement.model.Product@5597a888, com.example.storemanagement.model.Product@25760c9b, com.example.storemanagement.model.Product@64089dbc, com.example.storemanagement.model.Product@5d036707, com.example.storemanagement.model.Product@35b857c7, com.example.storemanagement.model.Product@20bf973f, com.example.storemanagement.model.Product@7a0be9, com.example.storemanagement.model.Product@46076fbe, com.example.storemanagement.model.Product@31f60ed6, com.example.storemanagement.model.Product@6d2c71b8, com.example.storemanagement.model.Product@3dd91ab7, com.example.storemanagement.model.Product@40dee82d, com.example.storemanagement.model.Product@415fce5e, com.example.storemanagement.model.Product@4ff0c67c, com.example.storemanagement.model.Product@3a897197, com.example.storemanagement.model.Product@d21796b, com.example.storemanagement.model.Product@32337baf, com.example.storemanagement.model.Product@7bb988b3, com.example.storemanagement.model.Product@a4d5b9a, com.example.storemanagement.model.Product@c219199, com.example.storemanagement.model.Product@25e66db1, com.example.storemanagement.model.Product@122d95ae]
+2024-07-10T00:32:37.133+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-5] c.e.storemanagement.DAO.ProductDAOImpl   : All products retrieved: [com.example.storemanagement.model.Product@2f670fda, com.example.storemanagement.model.Product@20c95c43, com.example.storemanagement.model.Product@1e0220b6, com.example.storemanagement.model.Product@58462d98, com.example.storemanagement.model.Product@4f48f095, com.example.storemanagement.model.Product@2509867b, com.example.storemanagement.model.Product@2a8105fc, com.example.storemanagement.model.Product@4342c7d9, com.example.storemanagement.model.Product@4b064b7c, com.example.storemanagement.model.Product@22d52639, com.example.storemanagement.model.Product@59797a, com.example.storemanagement.model.Product@55f01aa7, com.example.storemanagement.model.Product@2cd4e6ce, com.example.storemanagement.model.Product@273be983, com.example.storemanagement.model.Product@6ce2d6b7, com.example.storemanagement.model.Product@3912dcae, com.example.storemanagement.model.Product@327bbfd4, com.example.storemanagement.model.Product@4af43fe9, com.example.storemanagement.model.Product@30d91f6e, com.example.storemanagement.model.Product@1f015277, com.example.storemanagement.model.Product@706bdb5c, com.example.storemanagement.model.Product@1b0ba9cf]
+2024-07-10T00:32:39.121+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-6] c.e.storemanagement.DAO.ProductDAOImpl   : All products retrieved: [com.example.storemanagement.model.Product@dde9756, com.example.storemanagement.model.Product@6cc1db07, com.example.storemanagement.model.Product@3c993b07, com.example.storemanagement.model.Product@146c29e5, com.example.storemanagement.model.Product@6df16819, com.example.storemanagement.model.Product@f0a8f43, com.example.storemanagement.model.Product@7a3ecca6, com.example.storemanagement.model.Product@f68e105, com.example.storemanagement.model.Product@69bff151, com.example.storemanagement.model.Product@32941bb2, com.example.storemanagement.model.Product@3e43baba, com.example.storemanagement.model.Product@766b04be, com.example.storemanagement.model.Product@60c8565b, com.example.storemanagement.model.Product@7213987b, com.example.storemanagement.model.Product@51267ae9, com.example.storemanagement.model.Product@7fc6ca87, com.example.storemanagement.model.Product@5d9e21aa, com.example.storemanagement.model.Product@3320aa22, com.example.storemanagement.model.Product@51b37f9d, com.example.storemanagement.model.Product@18e805de, com.example.storemanagement.model.Product@3457e418, com.example.storemanagement.model.Product@290290a]
+2024-07-10T00:32:40.291+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-7] c.e.storemanagement.DAO.ProductDAOImpl   : All products retrieved: [com.example.storemanagement.model.Product@163ab2f0, com.example.storemanagement.model.Product@4dcd59e1, com.example.storemanagement.model.Product@27e66173, com.example.storemanagement.model.Product@35fbd4c2, com.example.storemanagement.model.Product@76154dbf, com.example.storemanagement.model.Product@51b010cd, com.example.storemanagement.model.Product@45491e71, com.example.storemanagement.model.Product@2eff9fde, com.example.storemanagement.model.Product@725b570b, com.example.storemanagement.model.Product@233c07f5, com.example.storemanagement.model.Product@2e0b3f75, com.example.storemanagement.model.Product@7cd85405, com.example.storemanagement.model.Product@5413a79a, com.example.storemanagement.model.Product@17531142, com.example.storemanagement.model.Product@60d4644a, com.example.storemanagement.model.Product@5e927c29, com.example.storemanagement.model.Product@17f43f16, com.example.storemanagement.model.Product@1822f5ab, com.example.storemanagement.model.Product@5b9724d1, com.example.storemanagement.model.Product@16a978be, com.example.storemanagement.model.Product@2093e9f2, com.example.storemanagement.model.Product@2f93dfe6]
+2024-07-10T00:32:52.885+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-8] c.e.storemanagement.DAO.ProductDAOImpl   : Product found with ID 38: com.example.storemanagement.model.Product@2eff9812
+2024-07-10T00:33:00.247+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-9] c.e.storemanagement.DAO.ProductDAOImpl   : Price changed for product with ID 38: new price 4545.0
+2024-07-10T00:33:00.281+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-9] c.e.storemanagement.DAO.ProductDAOImpl   : Product found with ID 38: com.example.storemanagement.model.Product@28b8b2a4
+2024-07-10T00:33:00.337+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-10] c.e.storemanagement.DAO.ProductDAOImpl   : All products retrieved: [com.example.storemanagement.model.Product@12126e78, com.example.storemanagement.model.Product@b6ff955, com.example.storemanagement.model.Product@23ca9907, com.example.storemanagement.model.Product@735d508a, com.example.storemanagement.model.Product@723d9137, com.example.storemanagement.model.Product@66c6b74, com.example.storemanagement.model.Product@7119d81f, com.example.storemanagement.model.Product@68591fb6, com.example.storemanagement.model.Product@76738fa3, com.example.storemanagement.model.Product@13a16dd2, com.example.storemanagement.model.Product@2c479699, com.example.storemanagement.model.Product@c439808, com.example.storemanagement.model.Product@662710b4, com.example.storemanagement.model.Product@7ef03e5f, com.example.storemanagement.model.Product@6e138c46, com.example.storemanagement.model.Product@7e00ca54, com.example.storemanagement.model.Product@207cd790, com.example.storemanagement.model.Product@5f010706, com.example.storemanagement.model.Product@2d02d11c, com.example.storemanagement.model.Product@5528fc82, com.example.storemanagement.model.Product@13ae71e0, com.example.storemanagement.model.Product@44406da4]
+2024-07-10T00:33:32.862+03:00 ERROR 29772 --- [storemanagement] [http-nio-8090-exec-4] c.e.storemanagement.DAO.ProductDAOImpl   : Error adding product: com.example.storemanagement.model.Product@515d09e9
+
+java.sql.SQLException: Invalid conversion requested
+	at oracle.jdbc.driver.T4CVarcharAccessor.StringToNUMBER(T4CVarcharAccessor.java:798) ~[ojdbc11-21.5.0.0.jar:21.5.0.0.0]
+	at oracle.jdbc.driver.T4CVarcharAccessor.getNUMBER(T4CVarcharAccessor.java:265) ~[ojdbc11-21.5.0.0.jar:21.5.0.0.0]
+	at oracle.jdbc.driver.T4CVarcharAccessor.getLong(T4CVarcharAccessor.java:566) ~[ojdbc11-21.5.0.0.jar:21.5.0.0.0]
+	at oracle.jdbc.driver.GeneratedStatement.getLong(GeneratedStatement.java:178) ~[ojdbc11-21.5.0.0.jar:21.5.0.0.0]
+	at oracle.jdbc.driver.GeneratedScrollableResultSet.getLong(GeneratedScrollableResultSet.java:286) ~[ojdbc11-21.5.0.0.jar:21.5.0.0.0]
+	at com.example.storemanagement.DAO.ProductDAOImpl.addProduct(ProductDAOImpl.java:29) ~[classes/:na]
+	at com.example.storemanagement.service.ProductService.addProduct(ProductService.java:18) ~[classes/:na]
+	at com.example.storemanagement.controller.WebController.addProduct(WebController.java:48) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.25.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.25.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.lang.NumberFormatException: Character A is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:582) ~[na:na]
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:467) ~[na:na]
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:896) ~[na:na]
+	at oracle.jdbc.driver.T4CVarcharAccessor.StringToNUMBER(T4CVarcharAccessor.java:793) ~[ojdbc11-21.5.0.0.jar:21.5.0.0.0]
+	... 57 common frames omitted
+
+2024-07-10T00:33:32.932+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-5] c.e.storemanagement.DAO.ProductDAOImpl   : All products retrieved: [com.example.storemanagement.model.Product@58c907f5, com.example.storemanagement.model.Product@1eca88f2, com.example.storemanagement.model.Product@724a681b, com.example.storemanagement.model.Product@30c4f959, com.example.storemanagement.model.Product@20a2a61b, com.example.storemanagement.model.Product@6ae527e5, com.example.storemanagement.model.Product@4bce9012, com.example.storemanagement.model.Product@5cd7a603, com.example.storemanagement.model.Product@69f041fc, com.example.storemanagement.model.Product@2a698928, com.example.storemanagement.model.Product@1518d277, com.example.storemanagement.model.Product@741e9969, com.example.storemanagement.model.Product@1f8ac9b7, com.example.storemanagement.model.Product@794c23a7, com.example.storemanagement.model.Product@2a94dd93, com.example.storemanagement.model.Product@2ac1cc79, com.example.storemanagement.model.Product@634f7fe7, com.example.storemanagement.model.Product@7b863932, com.example.storemanagement.model.Product@77f21b94, com.example.storemanagement.model.Product@5374a317, com.example.storemanagement.model.Product@4bdc4ed9, com.example.storemanagement.model.Product@159b139, com.example.storemanagement.model.Product@6610243d]
+2024-07-10T00:34:25.919+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-7] c.e.s.controller.ProductController       : Received request to add product: endpoint test
+2024-07-10T00:34:25.948+03:00 ERROR 29772 --- [storemanagement] [http-nio-8090-exec-7] c.e.storemanagement.DAO.ProductDAOImpl   : Error adding product: com.example.storemanagement.model.Product@41a30274
+
+java.sql.SQLException: Invalid conversion requested
+	at oracle.jdbc.driver.T4CVarcharAccessor.StringToNUMBER(T4CVarcharAccessor.java:798) ~[ojdbc11-21.5.0.0.jar:21.5.0.0.0]
+	at oracle.jdbc.driver.T4CVarcharAccessor.getNUMBER(T4CVarcharAccessor.java:265) ~[ojdbc11-21.5.0.0.jar:21.5.0.0.0]
+	at oracle.jdbc.driver.T4CVarcharAccessor.getLong(T4CVarcharAccessor.java:566) ~[ojdbc11-21.5.0.0.jar:21.5.0.0.0]
+	at oracle.jdbc.driver.GeneratedStatement.getLong(GeneratedStatement.java:178) ~[ojdbc11-21.5.0.0.jar:21.5.0.0.0]
+	at oracle.jdbc.driver.GeneratedScrollableResultSet.getLong(GeneratedScrollableResultSet.java:286) ~[ojdbc11-21.5.0.0.jar:21.5.0.0.0]
+	at com.example.storemanagement.DAO.ProductDAOImpl.addProduct(ProductDAOImpl.java:29) ~[classes/:na]
+	at com.example.storemanagement.service.ProductService.addProduct(ProductService.java:18) ~[classes/:na]
+	at com.example.storemanagement.controller.ProductController.addProduct(ProductController.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.25.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.25.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.lang.NumberFormatException: Character A is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:582) ~[na:na]
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:467) ~[na:na]
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:896) ~[na:na]
+	at oracle.jdbc.driver.T4CVarcharAccessor.StringToNUMBER(T4CVarcharAccessor.java:793) ~[ojdbc11-21.5.0.0.jar:21.5.0.0.0]
+	... 57 common frames omitted
+
+2024-07-10T00:34:25.949+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-7] c.e.s.controller.ProductController       : Product added successfully: com.example.storemanagement.model.Product@41a30274
+2024-07-10T00:35:07.205+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-10] c.e.s.controller.ProductController       : Received request to get all products
+2024-07-10T00:35:07.241+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-10] c.e.storemanagement.DAO.ProductDAOImpl   : All products retrieved: [com.example.storemanagement.model.Product@deebcb5, com.example.storemanagement.model.Product@4a84cde1, com.example.storemanagement.model.Product@3b748366, com.example.storemanagement.model.Product@29455e60, com.example.storemanagement.model.Product@51b654e9, com.example.storemanagement.model.Product@3db170fb, com.example.storemanagement.model.Product@22c1bb98, com.example.storemanagement.model.Product@21f447fe, com.example.storemanagement.model.Product@42064e35, com.example.storemanagement.model.Product@7406c826, com.example.storemanagement.model.Product@5bb4b045, com.example.storemanagement.model.Product@58fcc77a, com.example.storemanagement.model.Product@287b4db6, com.example.storemanagement.model.Product@6afef767, com.example.storemanagement.model.Product@143644e5, com.example.storemanagement.model.Product@2acf960e, com.example.storemanagement.model.Product@582b781c, com.example.storemanagement.model.Product@4573e9b1, com.example.storemanagement.model.Product@63c48c96, com.example.storemanagement.model.Product@35ed1906, com.example.storemanagement.model.Product@36856c3f, com.example.storemanagement.model.Product@6ce1253f, com.example.storemanagement.model.Product@2b06a409, com.example.storemanagement.model.Product@767ebd46]
+2024-07-10T00:35:07.242+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-10] c.e.s.controller.ProductController       : Products retrieved successfully: [com.example.storemanagement.model.Product@deebcb5, com.example.storemanagement.model.Product@4a84cde1, com.example.storemanagement.model.Product@3b748366, com.example.storemanagement.model.Product@29455e60, com.example.storemanagement.model.Product@51b654e9, com.example.storemanagement.model.Product@3db170fb, com.example.storemanagement.model.Product@22c1bb98, com.example.storemanagement.model.Product@21f447fe, com.example.storemanagement.model.Product@42064e35, com.example.storemanagement.model.Product@7406c826, com.example.storemanagement.model.Product@5bb4b045, com.example.storemanagement.model.Product@58fcc77a, com.example.storemanagement.model.Product@287b4db6, com.example.storemanagement.model.Product@6afef767, com.example.storemanagement.model.Product@143644e5, com.example.storemanagement.model.Product@2acf960e, com.example.storemanagement.model.Product@582b781c, com.example.storemanagement.model.Product@4573e9b1, com.example.storemanagement.model.Product@63c48c96, com.example.storemanagement.model.Product@35ed1906, com.example.storemanagement.model.Product@36856c3f, com.example.storemanagement.model.Product@6ce1253f, com.example.storemanagement.model.Product@2b06a409, com.example.storemanagement.model.Product@767ebd46]
+2024-07-10T00:35:23.821+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-1] c.e.s.controller.ProductController       : Received request to find product with ID: 36
+2024-07-10T00:35:23.850+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-1] c.e.storemanagement.DAO.ProductDAOImpl   : Product found with ID 36: com.example.storemanagement.model.Product@60c19c3
+2024-07-10T00:35:23.851+03:00  INFO 29772 --- [storemanagement] [http-nio-8090-exec-1] c.e.s.controller.ProductController       : Product found: com.example.storemanagement.model.Product@60c19c3

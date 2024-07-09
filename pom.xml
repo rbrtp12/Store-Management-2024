@@ -83,11 +83,20 @@
 			<version>5.0.0</version>
 			<scope>provided</scope>
 		</dependency>
+
+		<!-- Spring Logging -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-logging</artifactId>
+		</dependency>
+
+		<!-- Spring Security Auth -->
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-config</artifactId>
 			<version>3.2.0.RELEASE</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
