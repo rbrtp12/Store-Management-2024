@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Optional;
 
 @RestController
@@ -30,14 +31,24 @@ public class ProductController {
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
-    @PutMapping("/{id}/price")
-    public ResponseEntity<Product> changePrice(@PathVariable Long id, @RequestParam float newPrice) {
+    @GetMapping("/getAllProducts")
+    public ResponseEntity<List<Product>> getAllProducts() {
+        List<Product> product = productService.getAllProducts();
+        if (product != null) {
+            return ResponseEntity.ok(product);
+        }
+        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Product> changePrice(@PathVariable Long id, @RequestParam Double newPrice) {
         Product product = productService.changePrice(id, newPrice);
         if (product != null) {
             return ResponseEntity.ok(product);
         }
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
+
 
 
 }
