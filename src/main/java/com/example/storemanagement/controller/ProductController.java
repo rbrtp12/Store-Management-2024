@@ -41,7 +41,7 @@ public class ProductController {
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Product> changePrice(@PathVariable Long id, @RequestParam float newPrice) {
+    public ResponseEntity<Product> changePrice(@PathVariable Long id, @RequestParam Double newPrice) {
         Product product = productService.changePrice(id, newPrice);
         if (product != null) {
             return ResponseEntity.ok(product);

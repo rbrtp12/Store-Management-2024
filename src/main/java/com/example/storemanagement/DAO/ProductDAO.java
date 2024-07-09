@@ -9,7 +9,7 @@ public interface ProductDAO {
     Product addProduct(Product product);
     Product findProduct(Long id);
     List<Product> getAllProducts();
-    Product changePrice(Long id, float newPrice);
+    Product changePrice(Long id, Double newPrice);
     void deleteProduct(Long id);
 }
 

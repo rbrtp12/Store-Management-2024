@@ -23,7 +23,7 @@ public class ProductService {
         return productDAO.getAllProducts();
     }
 
-    public Product changePrice(Long id, float newPrice){
+    public Product changePrice(Long id, Double newPrice){
         return productDAO.changePrice(id, newPrice);
     }
 }

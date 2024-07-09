@@ -75,7 +75,7 @@ public class ProductDAOImpl implements ProductDAO {
     }
 
     @Override
-    public Product changePrice(Long id, float newPrice) {
+    public Product changePrice(Long id, Double newPrice) {
             String sql = "UPDATE PRODUCTS SET PRICE = ? WHERE ID = ?";
             try (Connection conn = DatabaseConfig.getConnection();
                  PreparedStatement pstmt = conn.prepareStatement(sql)) {
