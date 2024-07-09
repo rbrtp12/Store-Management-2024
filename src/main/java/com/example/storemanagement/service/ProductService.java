@@ -5,6 +5,8 @@ import com.example.storemanagement.DAO.ProductDAOImpl;
 import com.example.storemanagement.model.Product;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class ProductService {
 
@@ -15,6 +17,10 @@ public class ProductService {
 
     public Product findProduct(Long id){
         return productDAO.findProduct(id);
+    }
+
+    public List<Product> getAllProducts(){
+        return productDAO.getAllProducts();
     }
 
     public Product changePrice(Long id, float newPrice){
