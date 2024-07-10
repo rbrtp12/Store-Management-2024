@@ -4,12 +4,14 @@ package com.example.storemanagement.DAO;
 import com.example.storemanagement.model.Product;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+@Component
 public class ProductDAOImpl implements ProductDAO {
 
     private static final Logger logger = LoggerFactory.getLogger(ProductDAOImpl.class);
