@@ -2,6 +2,8 @@ package com.example.storemanagement.DAO;
 
 
 import com.example.storemanagement.model.Product;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -9,6 +11,8 @@ import java.util.List;
 import java.util.Optional;
 
 public class ProductDAOImpl implements ProductDAO {
+
+    private static final Logger logger = LoggerFactory.getLogger(ProductDAOImpl.class);
 
     @Override
     public Product addProduct(Product product) {
@@ -24,8 +28,10 @@ public class ProductDAOImpl implements ProductDAO {
             if (rs.next()) {
                 product.setId(rs.getLong(1));
             }
+            logger.info("Product added successfully: {}", product);
+
         } catch (SQLException e) {
-            e.printStackTrace();
+            logger.error("Error adding product: {}", product, e);
         }
         return product;
     }
@@ -46,8 +52,9 @@ public class ProductDAOImpl implements ProductDAO {
                 product.setName(rs.getString("NAME"));
                 product.setPrice(rs.getDouble("PRICE"));
             }
+            logger.info("Product found with ID {}: {}", id, product);
         } catch (SQLException e) {
-            e.printStackTrace();
+            logger.error("Error finding product with ID: {}", id, e);
         }
         return product;
     }
@@ -68,8 +75,9 @@ public class ProductDAOImpl implements ProductDAO {
                 product.setPrice(rs.getDouble("PRICE"));
                 products.add(product);
             }
+            logger.info("All products retrieved: {}", products);
         } catch (SQLException e) {
-            e.printStackTrace();
+            logger.error("Error retrieving all products", e);
         }
         return products;
     }
@@ -82,10 +90,10 @@ public class ProductDAOImpl implements ProductDAO {
 
                 pstmt.setDouble(1, newPrice);
                 pstmt.setLong(2, id);
-
                 pstmt.executeUpdate();
+                logger.info("Price changed for product with ID {}: new price {}", id, newPrice);
             } catch (SQLException e) {
-                e.printStackTrace();
+                logger.error("Error changing price for product with ID: {}", id, e);
             }
         return findProduct(id);
     }
@@ -98,8 +106,9 @@ public class ProductDAOImpl implements ProductDAO {
 
             pstmt.setLong(1, id);
             pstmt.executeUpdate();
+            logger.info("Product deleted with ID: {}", id);
         } catch (SQLException e) {
-            e.printStackTrace();
+            logger.error("Error deleting product with ID: {}", id, e);
         }
     }
 }
