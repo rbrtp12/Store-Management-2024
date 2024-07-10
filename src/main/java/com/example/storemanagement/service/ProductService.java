@@ -10,23 +10,15 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class ProductService {
+public interface ProductService {
 
+    public Product addProduct(Product product);
 
-    private final ProductDAO productDAO = new ProductDAOImpl();
-    public Product addProduct(Product product){
-        return productDAO.addProduct(product);
-    }
+    public Product findProduct(Long id);
 
-    public Product findProduct(Long id){
-        return productDAO.findProduct(id);
-    }
+    public List<Product> getAllProducts();
 
-    public List<Product> getAllProducts(){
-        return productDAO.getAllProducts();
-    }
+    public Product changePrice(Long id, Double newPrice);
 
-    public Product changePrice(Long id, Double newPrice){
-        return productDAO.changePrice(id, newPrice);
-    }
+    public void deleteProduct(Long id);
 }
