@@ -19,4 +19,6 @@ This repository contains a Spring Boot application for managing a store's produc
 
 Access the application at: http://localhost:8090
 
+i used: https://robertpinzaru1.atlassian.net/jira/software/projects/KAN/boards/1 to track my tasks.
+
 
